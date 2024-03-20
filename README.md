@@ -1,13 +1,6 @@
-# <p style="text-align: center;">Name of package</p>
+# <p style="text-align: center;">Cavrnus XR</p>
 
-Add quick description here...
-
-## Usage
-
-What does this package do?
-
-## Features
-* Feature
+Collection of VR and AR rigs to jumpstart development with Cavrnus Spatial Connector.
 
 ## Documentation
 Robust documenation can be found <a><a href="https://cavrnus.atlassian.net/wiki/spaces/CSM/pages/815136772/Cavrnus+Knowledge+Base">here</a>.
