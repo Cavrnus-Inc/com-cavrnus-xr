@@ -10,3 +10,9 @@
 
 ### Fixed
 - Fixes to xr dependencies
+
+
+## [1.0.1] - 2024-03-20
+
+### Fixed
+- Fixed samples folder not loading

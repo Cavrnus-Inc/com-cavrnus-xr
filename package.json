@@ -6,7 +6,7 @@
   "name": "com.cavrnus.xr",
   "displayName": "Cavrnus XR",
   "documentationUrl": "https://cavrnus.atlassian.net/wiki/spaces/CSM/pages/815136772/Cavrnus+Knowledge+Base",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "unity": "2022.3",
   "description": "Collection of VR and AR rigs to jumpstart development with Cavrnus Spatial Connector.",
   "publishConfig": {
@@ -20,7 +20,7 @@
     {
       "displayName": "VR",
       "description": "Collection of VR rigs and prefabs.",
-      "path": "Samples~/XR"
+      "path": "Samples~/VR"
     },
     {
       "displayName": "AR",
