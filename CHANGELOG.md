@@ -16,3 +16,9 @@
 
 ### Fixed
 - Fixed samples folder not loading
+
+
+## [1.0.2] - 2024-03-20
+
+### Fixed
+- Fixed more samples folder issues
