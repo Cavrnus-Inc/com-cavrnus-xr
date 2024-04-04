@@ -22,3 +22,12 @@
 
 ### Fixed
 - Fixed more samples folder issues
+
+
+## [1.1.0] - 2024-04-04
+
+### Added
+- Added new demo scene.
+
+### Fixed
+- Fixed deprecated xr rig and scripts.

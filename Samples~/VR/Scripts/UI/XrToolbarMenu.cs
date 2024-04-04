@@ -40,29 +40,18 @@ namespace CavrnusSdk.XR.UI
             disposables.Add(MenuManager.Instance.GetMenuSetting("ColorPickerMenu").Bind(vis => colorPickerMenuOpen.gameObject.SetActive(vis)));
         }
 
-        public void OpenSpacePicker()
-        {
-            //TODO: FIX!
-            /*
-            MenuManager.Instance.ToggleMenu("SpacePickerMenu", menusContainer, async go => {
-                var foundSpaces = await CavrnusHelpers.GetAllAvailableSpaces();
-                go.GetComponent<SpacePicker>().Setup(foundSpaces);
-            });
-            */
-        }
-        
         public void OpenColorPicker() => MenuManager.Instance.ToggleMenu("ColorPickerMenu", menusContainer);
         public void OpenSettings() => MenuManager.Instance.ToggleMenu("SettingsMenu", menusContainer);
         
         public void OpenUsersMenu() => MenuManager.Instance.ToggleMenu("UsersMenu", menusContainer);
         
-        public void ExitSpace() => CavrnusFunctionLibrary.ExitSpace(spaceConn);
+        public void ExitSpace() => spaceConn.ExitSpace();
 
         private CavrnusSpaceConnection spaceConn;
 
         private void OnLocalUser(CavrnusUser user)
         {
-            this.spaceConn = user.SpaceConnection;
+            spaceConn = user.SpaceConnection;
             toolBarContainer.gameObject.SetActive(true);
 
             // Setup widget components

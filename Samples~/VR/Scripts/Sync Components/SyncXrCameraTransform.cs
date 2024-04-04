@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace XR
 {
-    public class SyncXrCameraTransform : CavrnusTransformPropertySynchronizer
+    public class SyncXrCameraTransform : CavrnusValueSyncTransform
     {
         [SerializeField] private bool clampYPosToZero = false;
         
