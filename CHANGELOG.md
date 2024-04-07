@@ -31,3 +31,9 @@
 
 ### Fixed
 - Fixed deprecated xr rig and scripts.
+
+
+## [1.1.1] - 2024-04-06
+
+### Changed
+- Simplified Demo VR Scene
