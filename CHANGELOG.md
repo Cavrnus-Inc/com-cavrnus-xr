@@ -37,3 +37,12 @@
 
 ### Changed
 - Simplified Demo VR Scene
+
+
+## [1.1.2] - 2024-05-15
+
+### Added
+- Chat integrated into XR rig
+
+### Fixed
+- Fixes to UI menus. Specifically, close button and scroll bars in panels now work.

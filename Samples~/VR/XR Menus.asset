@@ -25,3 +25,5 @@ MonoBehaviour:
     Menu: {fileID: 7746417818104007622, guid: 8b66eef34e3b4024d8a3ad0bc91e0979, type: 3}
   - Name: ColorPickerMenu
     Menu: {fileID: 992538106600400461, guid: 943231c5c77a09446af7d23fc86b69b6, type: 3}
+  - Name: ChatMenu
+    Menu: {fileID: 9003440856346790762, guid: d8d50b429dcf0b34c8c1dee361bedaa8, type: 3}

@@ -18,6 +18,7 @@ namespace CavrnusSdk.XR.UI
         [SerializeField] private Image settingsMenuOpen;
         [SerializeField] private Image usersMenuOpen;
         [SerializeField] private Image colorPickerMenuOpen;
+        [SerializeField] private Image chatMenuOpen;
 
         [Space]
         [SerializeField] private WidgetUserProfileImage widgetUserProfileImageWidget;
@@ -38,8 +39,10 @@ namespace CavrnusSdk.XR.UI
             disposables.Add(MenuManager.Instance.GetMenuSetting("SettingsMenu").Bind(vis => settingsMenuOpen.gameObject.SetActive(vis)));
             disposables.Add(MenuManager.Instance.GetMenuSetting("SpacePickerMenu").Bind(vis => spacePickerMenuOpen.gameObject.SetActive(vis)));
             disposables.Add(MenuManager.Instance.GetMenuSetting("ColorPickerMenu").Bind(vis => colorPickerMenuOpen.gameObject.SetActive(vis)));
+            disposables.Add(MenuManager.Instance.GetMenuSetting("ChatMenu").Bind(vis => chatMenuOpen.gameObject.SetActive(vis)));
         }
 
+        public void OpenChatMenu() => MenuManager.Instance.ToggleMenu("ChatMenu", menusContainer);
         public void OpenColorPicker() => MenuManager.Instance.ToggleMenu("ColorPickerMenu", menusContainer);
         public void OpenSettings() => MenuManager.Instance.ToggleMenu("SettingsMenu", menusContainer);
         
